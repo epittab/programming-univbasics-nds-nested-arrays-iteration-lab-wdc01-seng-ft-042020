@@ -10,13 +10,11 @@ def join_ingredients(src)
   output_array = []
   i = 0
   
-  while i < src.count do
-    
-    
-    i+=1  
-  end 
-  
-  
+    while i < src.count do
+      output_array.push("I love #{src[i][0]} and #{src[i][1]} on my pizza")    
+      i+=1  
+    end 
+  return output_array  
 end
 
 def find_greater_pair(src)
