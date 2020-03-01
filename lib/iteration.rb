@@ -22,7 +22,21 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
+  new_array = Array.new()
   
+  i = 0
+
+  while i < src.count do 
+    
+    if ()
+      
+    else 
+      
+    end
+    
+    i+=1
+  end
+  return new_array
 end
 
 def total_even_pairs(src)
